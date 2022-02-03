@@ -1,0 +1,282 @@
+@media screen and (max-width: 1200px) {
+  .footer {
+    &__column {
+      width: auto;
+    }
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .selection {
+    &__top {
+      display: none;
+    }
+  }
+
+  .agents {
+    &__card {
+      grid-template-columns: 264px 1fr 230px;
+    }
+
+    &__column:nth-child(3) {
+      display: none;
+    }
+
+    &__knows {
+      display: none;
+    }
+
+    &__tell {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .header {
+    padding: 23px 0 34px;
+
+    &__contact {
+      display: none;
+    }
+
+    &__menu {
+      &-list {
+        display: none;
+      }
+    }
+
+    &__selection {
+      display: none;
+    }
+  }
+
+  .logo {
+    width: 108px;
+    height: 35px;
+  }
+
+  .menu-btn {
+    &__icon {
+      margin-right: 0;
+      width: 30px;
+
+      & span {
+        height: 3px;
+
+        &:first-child {
+          margin-bottom: 4.5px;
+        }
+
+        &:nth-child(2) {
+          width: 16.5px;
+          margin-bottom: 4.5px;
+        }
+
+        &:last-child {
+          width: 24px;
+        }
+      }
+    }
+
+    &__title {
+      display: none;
+    }
+  }
+
+  .selection {
+    &__bottom {
+      display: none;
+    }
+  }
+
+  .agents {
+    &__card {
+      grid-template-columns: 1fr;
+      grid-template-rows: 450px 135px 1fr;
+    }
+
+    //&__column {
+    //  grid-row: unset;
+    //}
+
+    &__filter {
+      display: none;
+    }
+
+    &__info {
+      &-title {
+        max-width: 100%;
+      }
+    }
+
+    &__description {
+      &-title, &-text {
+        display: none;
+      }
+    }
+  }
+
+  .footer {
+    padding: 50px 0 42px;
+
+    &__top {
+      flex-direction: column;
+      padding-bottom: 35px;
+    }
+
+    &__bottom {
+      flex-direction: column;
+      align-items: flex-start;
+      padding-top: 35px;
+
+      &-logo {
+        margin-bottom: 25px;
+      }
+
+      &-copyright {
+        margin-bottom: 25px;
+        max-width: 305px;
+      }
+    }
+
+    &__column {
+      height: auto;
+
+      &-list {
+        display: none;
+      }
+
+      &-title {
+        margin-bottom: 25px;
+      }
+
+      &-social {
+        position: relative;
+      }
+    }
+  }
+}
+
+//@media screen and (max-width: 375px) {
+@media screen and (max-width: 940px) {
+  .agents {
+    padding: 30px 0;
+
+    &__title {
+      font-size: 24px;
+    }
+
+    &__card {
+      position: relative;
+    }
+
+    &__img {
+      & img {
+        margin-top: -150px;
+      }
+    }
+
+    &__info {
+      grid-column: 1/2;
+      padding: 18px 15px 0;
+      height: auto;
+
+      &-title {
+        font-size: 16px;
+        margin-bottom: 5px;
+      }
+    }
+
+    &__description {
+      grid-column: 1/2;
+      padding: 0 15px;
+      margin-top: 10px;
+
+      &-link {
+        margin-top: 0;
+      }
+    }
+
+    &__rating {
+      &-text {
+        display: none;
+      }
+
+      &-count {
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        width: 26px;
+        height: 26px;
+        font-size: 12px;
+        font-family: $font-rr;
+      }
+    }
+
+    &__column:nth-child(2) {
+      grid-row: 2/3;
+    }
+
+    &__column:last-child {
+      grid-row: 3/4;
+      position: unset;
+    }
+
+    &__select {
+      margin: 0;
+      padding: 0 15px;
+
+      &-info {
+        display: none;
+      }
+
+      &-btn {
+        margin: 19px 0 22px;
+        width: 100%;
+      }
+    }
+
+    &__rating {
+      margin: 0;
+      grid-column: 1/2;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .agents {
+    &__card {
+      position: relative;
+      grid-template-rows: 350px 120px 1fr;
+    }
+
+    &__img img {
+      margin-top: -40px;
+    }
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .agents {
+    &__card {
+      position: relative;
+      grid-template-rows: 300px 120px 1fr;
+    }
+
+    &__img img {
+      margin-top: -25px;
+    }
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .agents {
+    &__card {
+      position: relative;
+      grid-template-rows: 209px 120px 1fr;
+    }
+  }
+}

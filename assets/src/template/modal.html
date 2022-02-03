@@ -1,0 +1,168 @@
+<div class="my-modal" id="modalPaymentInstalments">
+    <div class="h1 text-center">
+        Доступна рассрочка
+        <div class="subtitle">Это очень важный инструмент и проекты, у которых есть рассрочка имеет преимущества перед
+            другими.
+        </div>
+    </div>
+    <button class="btn btn-light d-block mt-3 d-md-none w-100" data-fancybox-close>Закрыть</button>
+</div>
+
+<div class="my-modal" id="modalReservation">
+    <div class="h1 text-center">
+        Забронируйте свое место в проекте
+        <div class="subtitle">Напишите сумму, которую бы вы хотели инвестировать в проект, и как только мы начнем сбор
+            средств, наш менеджер свяжется с Вами
+        </div>
+    </div>
+    <form>
+        <div class="form-group">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Введите сумму в USD" required/>
+            </div>
+        </div>
+        <button class="btn btn-primary btn-block">Отправить</button>
+        <button class="btn btn-light d-block mt-3 d-md-none w-100" data-fancybox-close>Закрыть</button>
+    </form>
+</div>
+
+<div class="my-modal" id="modalOutput">
+    <div class="text text-black-50 text-center">
+        <p>Задача организации, в особенности же дальнейшее развитие различных форм деятельности обеспечивает широкому
+            кругу (специалистов) участие в формировании существенных финансовых и административных условий.
+            Разнообразный и богатый опыт консультация с широким активом требуют определения и уточнения системы обучения
+            кадров.</p>
+    </div>
+    <a href="" class="btn btn-primary w-100">Авторизироваться</a>
+    <button class="btn btn-light d-block mt-3 d-md-none w-100" data-fancybox-close>Закрыть</button>
+</div>
+
+<div class="my-modal" id="modalEditPhone">
+    <div class="h1 text-center">Изменить телефон</div>
+    <form>
+        <div class="form-group">
+            <label class="form-label">Номер телефона</label>
+            <input type="text" class="form-control js-input-phone" placeholder="+7 (___) ___-__-__" required>
+        </div>
+        <button class="btn btn-primary btn-block">Сохранить</button>
+        <button class="btn btn-light d-block mt-3 d-md-none w-100" data-fancybox-close>Закрыть</button>
+    </form>
+</div>
+
+<div class="my-modal" id="modalEditDetails">
+    <div class="h1 text-center">Редактировать реквизиты</div>
+    <form>
+        <div class="form-group">
+            <label class="form-label">Тип счета</label>
+            <div class="form-check form-check-sm mb-1">
+                <input type="radio" class="form-check-input" name="account-type" required="" id="account-type-1">
+                <label class="form-check-label" id="ac-1">Криптокошелек</label>
+            </div>
+            <div class="form-check form-check-sm mb-1">
+                <input type="radio" class="form-check-input" name="account-type" required="" id="account-type-2">
+                <label class="form-check-label">Банковская карта</label>
+            </div>
+            <div class="form-check form-check-sm mb-1">
+                <input type="radio" class="form-check-input" name="account-type" required="" id="account-type-3">
+                <label class="form-check-label">Расчетный счет в банке</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="form-label">ФИО получателя</label>
+            <input type="text" class="form-control" placeholder="Введите текст" required>
+        </div>
+        <div class="form-group">
+            <label class="form-label">ИНН получателя</label>
+            <input type="text" class="form-control" placeholder="Введите текст" required>
+        </div>
+        <div class="account-type account-type-1">
+            <div class="form-group">
+                <label class="form-label">Криптокошелек</label>
+                <input type="text" class="form-control" placeholder="" required>
+            </div>
+        </div>
+        <div class="account-type account-type-2">
+            <div class="form-group">
+                <label class="form-label">Банк</label>
+                <input type="text" class="form-control" placeholder="__.__.____" required>
+            </div>
+        </div>
+        <div class="account-type account-type-3">
+            <div class="form-group">
+                <label class="form-label">Расчетный счет</label>
+                <input type="text" class="form-control" placeholder="Введите " required>
+            </div>
+        </div>
+        <button class="btn btn-primary btn-block">Сохранить</button>
+        <button class="btn btn-light d-block mt-3 d-md-none w-100" data-fancybox-close>Закрыть</button>
+    </form>
+</div>
+
+<div class="my-modal" id="modalConfirm">
+    <div class="h1 text-center">
+        Подтверждение личности
+        <div class="subtitle">
+            На вашу почту mix*******@yandex.ru был отправлен код. Введите этот код ниже.
+        </div>
+    </div>
+    <form>
+        <div class="form-group tf-auth">
+            <input type="text" name="code" class="form-control js-input-tf-auth" placeholder="0" required maxlength="1">
+            <input type="text" name="code" class="form-control js-input-tf-auth" placeholder="0" required maxlength="1">
+            <input type="text" name="code" class="form-control js-input-tf-auth" placeholder="0" required maxlength="1">
+            <input type="text" name="code" class="form-control js-input-tf-auth" placeholder="0" required maxlength="1">
+            <input type="text" name="code" class="form-control js-input-tf-auth" placeholder="0" required maxlength="1">
+            <input type="text" name="code" class="form-control js-input-tf-auth" placeholder="0" required maxlength="1">
+        </div>
+        <div class="tf-auth--repeat"><a href="" class="link-primary">Повторно отправить код</a> можно через: 0:20 секунд
+        </div>
+        <button class="btn btn-primary btn-block">Сохранить</button>
+        <button class="btn btn-light d-block mt-3 d-md-none w-100" data-fancybox-close>Закрыть</button>
+    </form>
+</div>
+
+<div class="modal-tooltip" id="tooltipFalse">
+    <div class="modal-tooltip__text"></div>
+    <button class="btn btn-light d-block mt-3 w-100" data-fancybox-close>Закрыть</button>
+</div>
+
+<div class="my-modal" id="modalEditRequisites">
+    <div class="h1 text-center">Редактировать реквизиты</div>
+    <form>
+        <div class="form-group">
+            <label class="form-label">Название реквизитов</label>
+            <span class="form-control--sum">
+                <input type="text" class="form-control" placeholder="Введите текст" required>
+            </span>
+        </div>
+        <div class="form-group">
+            <label class="form-label">Тип счёта</label>
+            <select class="form-control">
+                <option data-display="Не выбрано">Не выбрано</option>
+                <option value="1">По времени1</option>
+                <option value="2">По популярности1</option>
+                <option value="3">A option</option>
+                <option value="4">Potato1</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label class="form-label">ФИО получателя</label>
+            <input type="text" class="form-control" placeholder="Введите текст" required>
+        </div>
+        <div class="form-group">
+            <label class="form-label">ИНН получателя</label>
+            <input type="text" class="form-control" placeholder="Введите текст" required>
+        </div>
+        <div class="form-group">
+            <label class="form-label">Бик банка</label>
+            <input type="text" class="form-control" placeholder="Введите текст" required>
+        </div>
+        <div class="form-group">
+            <label class="form-label">Банк</label>
+            <input type="text" class="form-control" placeholder="__.__.____" required>
+        </div>
+        <button class="btn btn-primary btn-block">Сохранить</button>
+        <button class="btn btn-light d-block mt-3 d-md-none w-100" data-fancybox-close>Закрыть</button>
+    </form>
+</div>
+

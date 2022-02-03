@@ -1,0 +1,52 @@
+//
+///*modal*/
+//
+//.my-modal {
+//  display: none;
+//  max-width: 100%;
+//  background-color: #fff;
+//  overflow: visible;
+//  box-shadow: $shadow-medium;
+//  padding: 52px 32px 32px 32px;
+//  width: 480px;
+//  border-radius: 10px;
+//  @media (max-width: $md) {
+//    padding-left: 16px;
+//    padding-right: 16px;
+//  }
+//  .nice-select {
+//    z-index: 10;
+//  }
+//}
+//
+//#modalPaymentInstalments {
+//  & h1 {
+//    margin-bottom: 0;
+//  }
+//}
+//
+//@media (max-width: $nodesk) {
+//
+//  .my-modal {
+//    transform: translateY(100%);
+//    opacity: 0;
+//    -webkit-transition: opacity .5s, -webkit-transform .5s;
+//    transition: opacity .5s, -webkit-transform .5s;
+//    -o-transition: opacity .5s, -o-transform .5s;
+//    -moz-transition: transform .5s, opacity .5s, -moz-transform .5s;
+//    transition: transform .5s, opacity .5s;
+//    transition: transform .5s, opacity .5s, -webkit-transform .5s, -moz-transform .5s, -o-transform .5s;
+//  }
+//  .fancybox-slide--current .my-modal {
+//    opacity: 1;
+//    transform: translateY(0);
+//  }
+//
+//}
+//
+//.account-type {
+//  display: none;
+//  &.active {
+//    display: block;
+//  }
+//}
