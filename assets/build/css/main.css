@@ -10,6 +10,14 @@
   font-family: "RobotoBold";
   src: url("./../fonts/RobotoBold.ttf");
 }
+@font-face {
+  font-family: "FiraSansBold";
+  src: url("./../fonts/FiraSansBold.ttf");
+}
+@font-face {
+  font-family: "FiraSansExtraBold";
+  src: url("./../fonts/FiraSansExtraBold.ttf");
+}
 * {
   margin: 0;
   padding: 0;
@@ -416,6 +424,7 @@ body.body--overflow {
 }
 .agents__title {
   margin-bottom: 20px;
+  font-family: "FiraSansExtraBold", sans-serif;
 }
 .agents__filter {
   display: flex;
@@ -880,6 +889,7 @@ body.body--overflow {
   }
   .agents__title {
     font-size: 24px;
+    font-family: "FiraSansBold", sans-serif;
   }
   .agents__card {
     position: relative;
