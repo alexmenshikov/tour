@@ -1,12 +1,4 @@
 @media screen and (max-width: 1200px) {
-  .footer {
-    &__column {
-      width: auto;
-    }
-  }
-}
-
-@media screen and (max-width: 1180px) {
   .selection {
     &__top {
       display: none;
@@ -28,6 +20,12 @@
 
     &__tell {
       display: none;
+    }
+  }
+
+  .footer {
+    &__column {
+      width: auto;
     }
   }
 }

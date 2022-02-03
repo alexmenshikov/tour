@@ -763,11 +763,6 @@ body.body--overflow {
 }
 
 @media screen and (max-width: 1200px) {
-  .footer__column {
-    width: auto;
-  }
-}
-@media screen and (max-width: 1180px) {
   .selection__top {
     display: none;
   }
@@ -783,6 +778,10 @@ body.body--overflow {
   }
   .agents__tell {
     display: none;
+  }
+
+  .footer__column {
+    width: auto;
   }
 }
 @media screen and (max-width: 940px) {
